@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree,projectFour,projectFive } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -31,6 +31,16 @@ const Projects = () => {
           title="site web ark-x"
           des=" formation ark-x"
           src={projectThree}
+        />
+          <ProjectsCard
+          title="WeLcome to atlaS Fitness"
+          des=" WeLcome to atlaS Fitness"
+          src={projectFour}
+        />
+         <ProjectsCard
+          title="Travel"
+          des=" We Provide You Best Morocco Sightseeing Tours"
+          src={projectFive}
         />
         
       </div>

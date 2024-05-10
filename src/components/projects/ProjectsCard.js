@@ -19,12 +19,20 @@ const ProjectsCard = ({ title, des, src }) => {
               {title}
             </h3>
             <div className="flex gap-2">
+            <a>
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <BsGithub />
+                <BsGithub/>
               </span>
+              </a>
+              <a href="https://www.figma.com/file/bHYfl9fs54rK6GAIFhpbgD/site-artisans?type=design&t=q5sYfaqbjjCfnINP-6" target="_blank" rel="noopener noreferrer">
+
               <span className="text-lg w-10 h-10 rounded-full bg-black inline-flex justify-center items-center text-gray-400 hover:text-designColor duration-300 cursor-pointer">
-                <FaGlobe />
+                <FaGlobe  src="https://www.figma.com/file/WXaV3Nwmg032UrfgrUdZhb/Untitled?type=design&node-id=0-1&mode=design&t=kIyEQ6wchQw8p61q-0"  />
               </span>
+              </a>
+              
+
+             
             </div>
           </div>
           <p className="text-sm tracking-wide mt-3 hover:text-gray-100 duration-300">
